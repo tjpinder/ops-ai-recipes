@@ -1,0 +1,80 @@
+[
+  {
+    "SubscriptionID": "1e3b0646-02b3-5083-a474-e1738e0c52d6",
+    "Report_OID": "3bf23bae-8a9b-562d-9d05-e3fd3f220593",
+    "OwnerID": "d3def0e9-0405-5880-9a22-6cac471c50c0",
+    "Description": "Weekly pipeline to sales managers",
+    "DeliveryExtension": "Report Server Email",
+    "LastStatus": "Failure sending mail: The SMTP server rejected the sender address.",
+    "LastRunTime": "2026-09-28T07:00:00",
+    "EventType": "TimedSubscription",
+    "InactiveFlags": 0,
+    "DataSettings": null,
+    "ExtensionSettings": "<ParameterValues><ParameterValue><Name>TO</Name><Value>***@distrib.example</Value></ParameterValue><ParameterValue><Name>RenderFormat</Name><Value>PDF</Value></ParameterValue></ParameterValues>"
+  },
+  {
+    "SubscriptionID": "70c8c95d-eb07-5ecf-9fd8-b22e1bab9021",
+    "Report_OID": "ca260824-2174-5237-a91d-b6add6b81d83",
+    "OwnerID": "5b23a946-ee1b-5281-ad1c-d3375b38e5a3",
+    "Description": "Quarterly close pack to finance leadership",
+    "DeliveryExtension": "Report Server Email",
+    "LastStatus": "Mail sent to ***@distrib.example",
+    "LastRunTime": "2026-07-01T06:00:00",
+    "EventType": "TimedSubscription",
+    "InactiveFlags": 0,
+    "DataSettings": null,
+    "ExtensionSettings": "<ParameterValues><ParameterValue><Name>TO</Name><Value>***@distrib.example</Value></ParameterValue><ParameterValue><Name>RenderFormat</Name><Value>PDF</Value></ParameterValue></ParameterValues>"
+  },
+  {
+    "SubscriptionID": "83df9e39-c7f3-52a0-a6ee-71fa55377259",
+    "Report_OID": "7049485c-2146-53d8-a2a0-a2e71552e637",
+    "OwnerID": "5b23a946-ee1b-5281-ad1c-d3375b38e5a3",
+    "Description": "Monthly statements per customer",
+    "DeliveryExtension": "Report Server Email",
+    "LastStatus": "Done: 412 processed of 412 total; 0 errors.",
+    "LastRunTime": "2026-09-01T05:00:00",
+    "EventType": "TimedSubscription",
+    "InactiveFlags": 0,
+    "DataSettings": "<DataSet><Query><CommandText>SELECT CustomerID, Email FROM dbo.StatementRecipients</CommandText></Query><Fields><Field><Alias>CustomerID</Alias></Field><Field><Alias>Email</Alias></Field></Fields></DataSet>",
+    "ExtensionSettings": "<ParameterValues><ParameterValue><Name>TO</Name><Value>***@distrib.example</Value></ParameterValue><ParameterValue><Name>RenderFormat</Name><Value>PDF</Value></ParameterValue></ParameterValues>"
+  },
+  {
+    "SubscriptionID": "5f294ad4-c263-5a0a-8b95-06070a73bef1",
+    "Report_OID": "4e4eb488-f03d-55be-8773-a3f9467ac91f",
+    "OwnerID": "5b23a946-ee1b-5281-ad1c-d3375b38e5a3",
+    "Description": "Monthly revenue to CFO",
+    "DeliveryExtension": "Report Server Email",
+    "LastStatus": "Mail sent to ***@distrib.example",
+    "LastRunTime": "2026-09-01T06:00:00",
+    "EventType": "TimedSubscription",
+    "InactiveFlags": 0,
+    "DataSettings": null,
+    "ExtensionSettings": "<ParameterValues><ParameterValue><Name>TO</Name><Value>***@distrib.example</Value></ParameterValue><ParameterValue><Name>RenderFormat</Name><Value>PDF</Value></ParameterValue></ParameterValues>"
+  },
+  {
+    "SubscriptionID": "708af38d-b75f-570a-9818-8a1e479ef5ad",
+    "Report_OID": "bcc96efb-d0e7-5ce7-b5d9-e22264d95b16",
+    "OwnerID": "d3def0e9-0405-5880-9a22-6cac471c50c0",
+    "Description": "Weekly sales extract to share",
+    "DeliveryExtension": "Report Server FileShare",
+    "LastStatus": "The file \"Sales by Month.xlsx\" has been saved to the \"\\\\fs01\\reports\" file share.",
+    "LastRunTime": "2026-09-28T07:00:00",
+    "EventType": "TimedSubscription",
+    "InactiveFlags": 0,
+    "DataSettings": null,
+    "ExtensionSettings": "<ParameterValues><ParameterValue><Name>PATH</Name><Value>\\\\fs01\\reports</Value></ParameterValue><ParameterValue><Name>RENDER_FORMAT</Name><Value>EXCELOPENXML</Value></ParameterValue></ParameterValues>"
+  },
+  {
+    "SubscriptionID": "7b7f0ba4-8415-5c43-95c1-52537d30b4b7",
+    "Report_OID": "d677113b-ba97-5e12-b2e8-a394c0fe05ed",
+    "OwnerID": "827ee813-903a-5b6c-920e-60d178210eae",
+    "Description": "Daily AR aging to collections",
+    "DeliveryExtension": "Report Server Email",
+    "LastStatus": "Mail sent to ***@distrib.example",
+    "LastRunTime": "2026-09-30T06:00:00",
+    "EventType": "TimedSubscription",
+    "InactiveFlags": 0,
+    "DataSettings": null,
+    "ExtensionSettings": "<ParameterValues><ParameterValue><Name>TO</Name><Value>***@distrib.example</Value></ParameterValue><ParameterValue><Name>RenderFormat</Name><Value>PDF</Value></ParameterValue></ParameterValues>"
+  }
+]

@@ -1,0 +1,5 @@
+# leftover empty intake session from 2026-10-14
+intake-answers.yaml
+.intake-kit/
+__pycache__/
+*.csv

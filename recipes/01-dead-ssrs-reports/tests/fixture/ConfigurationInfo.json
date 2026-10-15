@@ -1,0 +1,10 @@
+[
+  {
+    "Name": "ExecutionLogDaysKept",
+    "Value": "60"
+  },
+  {
+    "Name": "EnableExecutionLogging",
+    "Value": "True"
+  }
+]
