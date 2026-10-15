@@ -4,9 +4,9 @@ Small, complete automations for operations teams. One narrow task per recipe: th
 
 Most recipes use AI where it earns its place. Some don't use it at all, because the job is deterministic and a model would only add a way to be wrong. Each recipe says which, and why.
 
-| # | Recipe | Uses AI | Stack |
-| --- | --- | --- | --- |
-| 01 | [Find the SSRS reports nobody runs](recipes/01-dead-ssrs-reports/) | No, on purpose | T-SQL |
+| # | Recipe | Uses AI | Stack | Write-up |
+| --- | --- | --- | --- | --- |
+| 01 | [Find the SSRS reports nobody runs](recipes/01-dead-ssrs-reports/) | No, on purpose | T-SQL | [Post](https://startvest.ai/blog/find-ssrs-reports-nobody-uses) |
 
 ## Rules every recipe follows
 

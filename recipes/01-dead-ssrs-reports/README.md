@@ -15,6 +15,8 @@
 
 No model in this one, on purpose. Deciding what's dead is a deterministic job, and it should stay one.
 
+The why, and the cutover that taught it: [How to find the SSRS reports nobody uses, without retiring the ones people still need](https://startvest.ai/blog/find-ssrs-reports-nobody-uses).
+
 ## The four ways the obvious query is wrong
 
 1. **The log doesn't go back as far as you think.** SSRS keeps execution history for `ExecutionLogDaysKept` days (60 by default), then deletes it. Ask "unused for 90 days" on a 60-day log and every quarterly report looks dead. This script reads the setting and the oldest log row, and **stops with an error** if the log doesn't cover the whole window.
